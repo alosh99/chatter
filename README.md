@@ -29,7 +29,7 @@ To show a message of welcome Aedaٱe
 / Id
 
 
-installation
+<b>installation </b>
 
 Copy the following command
 
