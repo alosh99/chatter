@@ -1,60 +1,55 @@
-# chatter-bot
+chatter-bot
+A simple telegram-bot wtitten in LUA
 
-A simple telegram-bot wtitten in LUA 
+commands
+/ Ban
 
-# commands
-`/ban`
+Ignore Member to send a message to reply to his message
 
- حظر عضو من ارسال رساله بالرد على رسالته
+/ Unban
 
-`/unban`
+ ban on member by replying to the letter
 
-فتح الحظر عن عضو عن طريق الرد على رسالته
+/ Users
 
-`/users` 
+Know the number of participating members
 
-معرفه عدد الاعضاء المشتركين
+/ Broadcast
 
-`/broadcast`
+Send this matter and every message they send after him to all participants
 
-ارسل هذا الامر وكل رساله كانت بعده سترسل لجميع المشتركين
+/ Unbroadcast
 
-`/unbroadcast`
+To stop sending messages and commands to activate the rest
 
-لكي تتوقف ارسال الرسائل وتفعيل الاوامر البقيه
+/ Start
 
-`/start`
+To show a message of welcome Aedaٱe
 
-لأظهار رساله ترحيب للاعضاٱء
-
-`/id` 
-
-بالرد على رساله موجهه يضهر لك المعلومات
-
-# التنصيب
+/ Id
 
 
-انسخ الامر التالي
+<b>installation </b>
 
-```
-git clone https://github.com/micodev/chatter.git && cd chatter && chmod +x ./lua.sh && ./lua.sh run && ./lua.sh
+Copy the following command
 
-```
-خلي التوكين للبوت بين "" في bot_api_bot
-وايدي حسابك الخاصه ب you
+git clone https://github.com/micodev/chatter.git && cd chatter && chmod + x ./lua.sh && ./lua.sh run && ./lua.sh && ./launch.sh
 
-```lua
 
-local bot_api_key = "" -- token
+
+
+local bot_api_key = "  " --  your toker
+local You = " "--your id
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
-you = --ايدي هنا فقط رقم
-local BASE_FOLDER = "" -- do not set this
+local BASE_FOLDER = ""
+local start = [[]] -- no change
 
-```
-اذا تحب تساعدني او عدك استفسار احب اسمع منك
+
+developer :  @devil_soldier
+
+spacial thanks to :
 @malvoo
-او 
+or
 @lua_lua
 
-لمعرفه جديد عن البوت 👍
 
