@@ -8,7 +8,7 @@ Ignore Member to send a message to reply to his message
 
 / Unban
 
-Fatah ban on member by replying to the letter
+ ban on member by replying to the letter
 
 / Users
 
@@ -48,9 +48,11 @@ local BASE_FOLDER = ""
 local start = [[]] -- no change
 
 `` `
-If you like to help me or promise queries I would like to hear from you
+developer :  @devil_soldier
+
+spacial thanks to :
 @malvoo
 or
 @lua_lua
 
-Find out about a new bot 👍
+
