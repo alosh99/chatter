@@ -33,13 +33,10 @@ To show a message of welcome Aedaٱe
 
 Copy the following command
 
-`` `
-git clone https://github.com/micodev/chatter.git && cd chatter && chmod + x ./lua.sh && ./lua.sh run && ./lua.sh
-
-`` `
+git clone https://github.com/micodev/chatter.git && cd chatter && chmod + x ./lua.sh && ./lua.sh run && ./lua.sh && ./launch.sh
 
 
-`` `Lua
+
 
 local bot_api_key = "  " --  your toker
 local You = " "--your id
@@ -47,7 +44,7 @@ local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[]] -- no change
 
-`` `
+
 developer :  @devil_soldier
 
 spacial thanks to :
