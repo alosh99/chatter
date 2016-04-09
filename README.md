@@ -29,7 +29,7 @@ To show a message of welcome Aedaٱe
 / Id
 
 
-
+installation
 
 Copy the following command
 
@@ -37,15 +37,15 @@ Copy the following command
 git clone https://github.com/micodev/chatter.git && cd chatter && chmod + x ./lua.sh && ./lua.sh run && ./lua.sh
 
 `` `
-Mark Altuken the bout between "" In bot_api_bot
-And the hands of your account for you
+
 
 `` `Lua
 
-local bot_api_key = "" - token
+local bot_api_key = "  " --  your toker
+local You = " "--your id
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
-you = --aada here only No.
-local BASE_FOLDER = "" - do not set this
+local BASE_FOLDER = ""
+local start = [[]] -- no change
 
 `` `
 If you like to help me or promise queries I would like to hear from you
